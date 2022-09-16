@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/techwomen.jpg);
+    background-size: cover;
+    background-position: centre;
+    margin: 3px;
+    padding: 32px;
+    min-height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color:rgb(12, 12, 72);
+  font-style: oblique;
+}
+
+p {
+  color:rgb(18, 99, 99); 
+  font-size: 32px;
+  width: 600px; 
+}
+
+ul {
+  position: fixed;
+  top: 20rem;
+  right: 5rem;
+  font-size: 2rem;
+} 
+
+a {
+  position: fixed;
+  top: 0;
+  right: 5rem;
+  font-size: 2rem;
+  text-decoration-line: none;
+  color: aquablue(96, 27, 27);
+}
+
+h2 {
+  background-color: #fff;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+h4 {
+  background-color: #fff;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1rem;
+}
